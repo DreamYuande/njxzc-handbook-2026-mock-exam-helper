@@ -2,3 +2,4 @@
 *.js text eol=lf
 *.md text eol=lf
 LICENSE text eol=lf
+*.user.js linguist-language=JavaScript linguist-vendored=false linguist-generated=false
