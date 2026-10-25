@@ -1,6 +1,6 @@
-# 南京晓庄 2026 学生手册自动作答助手
+# 南京晓庄学院2026年学生手册模拟考试助手
 
-一个用于南京晓庄学院2026年学生手册模拟考试的 JavaScript 用户脚本。当前脚本版本为 **1.2.0**。
+一个用于南京晓庄学院2026年学生手册模拟考试的 JavaScript 用户脚本。当前脚本版本为 **1.2.1**。
 
 **仅适用于 [南京晓庄学院2026年学生手册模拟考试](https://ks.wjx.com/vm/mHriy8I.aspx) 这个网页，与正式考试不通用。**
 
@@ -16,7 +16,7 @@
 ## 安装与使用
 
 1. 在浏览器安装 Tampermonkey 等兼容用户脚本的扩展。
-2. [点击下载/安装](https://raw.githubusercontent.com/DreamYuande/njxzc-handbook-2026-helper/main/%E5%8D%97%E4%BA%AC%E6%99%93%E5%BA%842026%E5%AD%A6%E7%94%9F%E6%89%8B%E5%86%8C%E8%87%AA%E5%8A%A8%E4%BD%9C%E7%AD%94%E5%8A%A9%E6%89%8B.user.js)，在用户脚本扩展的提示中确认安装或更新。
+2. [点击下载/安装](https://raw.githubusercontent.com/DreamYuande/njxzc-handbook-2026-mock-exam-helper/main/%E5%8D%97%E4%BA%AC%E6%99%93%E5%BA%842026%E5%AD%A6%E7%94%9F%E6%89%8B%E5%86%8C%E8%87%AA%E5%8A%A8%E4%BD%9C%E7%AD%94%E5%8A%A9%E6%89%8B.user.js)，在用户脚本扩展的提示中确认安装或更新。
 3. 打开 [南京晓庄学院2026年学生手册模拟考试](https://ks.wjx.com/vm/mHriy8I.aspx) 页面。
 4. 在右下角助手的“基本信息设置”中填写姓名、学号并选择学院，点击“保存信息”。
 5. 刷新网页，脚本将读取已保存信息并开始填写、作答。

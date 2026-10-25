@@ -1,13 +1,17 @@
 // ==UserScript==
 // @name         南京晓庄2026学生手册自动作答助手
 // @namespace    local.njxzc.handbook.2026
-// @version      1.2.0
-// @description  保存姓名、学院和学号，刷新后自动填信息并作答；无可用答案的单选随机、多选全选，不自动提交。
+// @version      1.2.1
+// @description  仅适用于南京晓庄学院2026年学生手册模拟考试（mHriy8I 页面），与正式考试不通用。保存姓名、学院和学号，刷新后自动填信息并作答；未命中单选随机、多选全选，不自动提交。
 // @match        https://ks.wjx.com/vm/mHriy8I.aspx*
 // @run-at       document-idle
 // @grant        none
 // @noframes
 // ==/UserScript==
+
+// 适用范围：仅限「南京晓庄学院2026年学生手册模拟考试」。
+// 唯一适用网页：https://ks.wjx.com/vm/mHriy8I.aspx
+// 与正式考试不通用，也不适用于其他问卷或考试页面。
 
 (() => {
   'use strict';
@@ -243,8 +247,8 @@
       #save{width:100%;margin:4px 0;background:#5965da;color:#fff}button:disabled{opacity:.5;cursor:default}#profile-message{margin-top:6px;color:#6a7588;font-size:12px}
       .folded .body{display:none}@media(max-width:600px){:host{font-size:12px}strong{font-size:13px}}
     </style>
-    <section class="card"><header><strong>学生手册助手</strong><button id="fold" type="button" aria-label="收起或展开">−</button></header>
-      <div class="body"><div class="muted">未命中单选随机 / 多选全选 · 不自动提交</div><div id="status">准备中…</div>
+    <section class="card"><header><strong>学生手册模拟考试助手</strong><button id="fold" type="button" aria-label="收起或展开">−</button></header>
+      <div class="body"><div class="muted">仅限本页模拟考试 · 与正式考试不通用</div><div class="muted">未命中单选随机 / 多选全选 · 不自动提交</div><div id="status">准备中…</div>
       <div class="actions"><button id="toggle" type="button">暂停</button><button id="retry" type="button">重填本页</button></div>
       <details><summary id="summary">随机作答及异常详情</summary><ol id="issues"></ol></details>
       <details id="settings"><summary>基本信息设置</summary>
