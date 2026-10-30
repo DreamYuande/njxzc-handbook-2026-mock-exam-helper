@@ -1,5 +1,11 @@
 # 南京晓庄学院2026年学生手册模拟考试助手
 
+> **本仓库已归档，仅保留模拟版代码和历史记录。** 后续正式版脚本与说明请访问新项目：[南京晓庄2026学生手册正式考试助手](https://github.com/DreamYuande/njxzc-handbook-2026-exam-helper)。
+>
+> [从零安装教程（含开发者模式、允许用户脚本与网站访问权限）](https://github.com/DreamYuande/njxzc-handbook-2026-exam-helper/blob/main/安装教程.md) · [安装正式版](https://raw.githubusercontent.com/DreamYuande/njxzc-handbook-2026-exam-helper/main/南京晓庄2026学生手册正式考试助手.user.js)
+>
+> 模拟版和正式版分别适配不同链接；原模拟版不会自动变成正式版，正式版需要另外安装。以下内容是旧模拟版的历史说明。
+
 这是一个 **JavaScript（JS）用户脚本仓库**，用于南京晓庄学院2026年学生手册模拟考试。当前脚本版本为 **1.2.2**。
 
 **仅适用于 [南京晓庄学院2026年学生手册模拟考试](https://ks.wjx.com/vm/mHriy8I.aspx) 这个网页，与正式考试不通用。**
